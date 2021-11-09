@@ -2529,3 +2529,61 @@ java.lang.Exception: File: /home/alex/Documentos/CESE-UBA/programación de micro
 
 !ENTRY org.eclipse.cdt.core 1 0 2021-10-31 11:00:03.342
 !MESSAGE Indexed 'Practica0' (98 sources, 208 headers) in 7.77 sec: 29,803 declarations; 90,498 references; 6 unresolved inclusions; 1,836 syntax errors; 1,822 unresolved names (1.5 %)
+!SESSION 2021-11-05 16:39:18.463 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_PE
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-11-05 16:39:25.293
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-11-05 16:39:25.349
+!MESSAGE Log4j initialized with config file /home/alex/Documentos/CESE-UBA/programación de microprocesadores/PdM_workspace/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-11-05 16:39:31.651
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.buildanalyzer.ui 1 0 2021-11-05 16:39:39.042
+!MESSAGE Failed to parse map file
+!STACK 0
+java.io.FileNotFoundException: /home/alex/Documentos/CESE-UBA/programación de microprocesadores/PdM_workspace/Ejercicio_delayNB_1/Debug/Ejercicio_delayNB_1.map (No existe el archivo o el directorio)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at elf_analyzer.datamodel.BuildDataProviderMap.readFile(BuildDataProviderMap.java:55)
+	at elf_analyzer.datamodel.BuildDataProviderMap.compute(BuildDataProviderMap.java:349)
+	at elf_analyzer.datamodel.BuildDataProviderMap.computeMemConfig(BuildDataProviderMap.java:392)
+	at elf_analyzer.datamodel.BuildData.compute(BuildData.java:80)
+	at elf_analyzer.ElfAnalyzerView.inputChanged(ElfAnalyzerView.java:252)
+	at elf_analyzer.ElfAnalyzerView.lambda$7(ElfAnalyzerView.java:492)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2021-11-05 16:39:43.434
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:912)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1256)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-11-05 19:05:45.278
+!MESSAGE Indexed 'Practica1' (98 sources, 208 headers) in 9.91 sec: 29,807 declarations; 90,514 references; 6 unresolved inclusions; 1,836 syntax errors; 1,822 unresolved names (1.5 %)
+!SESSION 2021-11-05 19:59:22.210 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_PE
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-11-05 19:59:27.241
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-11-05 19:59:27.298
+!MESSAGE Log4j initialized with config file /home/alex/Documentos/CESE-UBA/programación de microprocesadores/PdM_workspace/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-11-05 19:59:33.824
+!MESSAGE Started RMI Server, listening on port 41337
