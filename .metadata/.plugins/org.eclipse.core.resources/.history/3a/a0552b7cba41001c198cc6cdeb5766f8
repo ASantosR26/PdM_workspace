@@ -1,0 +1,17 @@
+/*
+ * API_debounce.h
+ *
+ *  Created on: 9 nov. 2021
+ *      Author: alex
+ */
+
+#ifndef API_INC_API_DEBOUNCE_H_
+#define API_INC_API_DEBOUNCE_H_
+
+#include <stdio.h>
+
+typedef enum{
+	BUTTON
+} statusMEF_t;
+
+#endif /* API_INC_API_DEBOUNCE_H_ */

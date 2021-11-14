@@ -1,0 +1,38 @@
+/*
+ * API_debounce.c
+ *
+ *  Created on: 9 nov. 2021
+ *      Author: alex
+ */
+
+#include "API_debounce.h"
+
+void  initMEF(void){
+	//currentStatus = BUTTON_UP;
+}
+
+void updateMEF(void){
+	switch (currentstatus){
+		case BUTTON_UP:
+		{
+
+		}
+		case BUTTON_FALLING:
+		{
+
+		}
+		case BUTTON_DOWN:
+		{
+
+		}
+		case BUTTON_RISING:
+		{
+
+		}
+		default:
+		{
+
+			break;
+		}
+	}
+}
